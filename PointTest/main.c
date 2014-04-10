@@ -8,7 +8,7 @@
 //参考网址:http://blog.chinaunix.net/uid-22889411-id-59688.html
 
 #include <stdio.h>
-#include "Mode.h"
+#include "StructArray.h"
 
 //void Exchg1(int x, int y)
 //{
@@ -57,6 +57,7 @@ void doFind()
 
 }
 
+//-----------------------------------------Begin----------------------------------------//
 //函数声明
 void logChar(int);
 void doLogChar();
@@ -76,7 +77,7 @@ int main(int argc, const char * argv[])
     
 //    doMethodNamePointWithParameter();
     
-    method();
+    structPrintf();
     return 0;
 }
 

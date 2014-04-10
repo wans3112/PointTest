@@ -11,4 +11,13 @@
 
 void method();
 
+void structPrintf();
+
+struct Students {
+    char number[10] ;
+    char name[10];
+    float score[3];
+};
+
+void doStructPrintf(struct Students stu[2]);
 #endif

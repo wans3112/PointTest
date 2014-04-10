@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		A82F09ED18E405190030CE91 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A82F09EC18E405190030CE91 /* main.c */; };
 		A82F09EF18E405190030CE91 /* PointTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A82F09EE18E405190030CE91 /* PointTest.1 */; };
-		A8E810A618F6A28000E8871B /* Mode.c in Sources */ = {isa = PBXBuildFile; fileRef = A8E810A518F6A28000E8871B /* Mode.c */; };
+		A8E810A618F6A28000E8871B /* StructArray.c in Sources */ = {isa = PBXBuildFile; fileRef = A8E810A518F6A28000E8871B /* StructArray.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +29,8 @@
 		A82F09E918E405180030CE91 /* PointTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PointTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82F09EC18E405190030CE91 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		A82F09EE18E405190030CE91 /* PointTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PointTest.1; sourceTree = "<group>"; };
-		A8E810A418F6A26800E8871B /* Mode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mode.h; sourceTree = "<group>"; };
-		A8E810A518F6A28000E8871B /* Mode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Mode.c; sourceTree = "<group>"; };
+		A8E810A418F6A26800E8871B /* StructArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StructArray.h; sourceTree = "<group>"; };
+		A8E810A518F6A28000E8871B /* StructArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = StructArray.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +65,8 @@
 			children = (
 				A82F09EC18E405190030CE91 /* main.c */,
 				A82F09EE18E405190030CE91 /* PointTest.1 */,
-				A8E810A418F6A26800E8871B /* Mode.h */,
-				A8E810A518F6A28000E8871B /* Mode.c */,
+				A8E810A418F6A26800E8871B /* StructArray.h */,
+				A8E810A518F6A28000E8871B /* StructArray.c */,
 			);
 			path = PointTest;
 			sourceTree = "<group>";
@@ -122,7 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8E810A618F6A28000E8871B /* Mode.c in Sources */,
+				A8E810A618F6A28000E8871B /* StructArray.c in Sources */,
 				A82F09ED18E405190030CE91 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
