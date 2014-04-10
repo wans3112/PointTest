@@ -8,6 +8,7 @@
 //参考网址:http://blog.chinaunix.net/uid-22889411-id-59688.html
 
 #include <stdio.h>
+#include "Mode.h"
 
 //void Exchg1(int x, int y)
 //{
@@ -75,6 +76,7 @@ int main(int argc, const char * argv[])
     
 //    doMethodNamePointWithParameter();
     
+    method();
     return 0;
 }
 

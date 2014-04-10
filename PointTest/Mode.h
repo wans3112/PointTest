@@ -1,15 +1,14 @@
 //
-//  Mode.c
+//  Mode.h
 //  PointTest
 //
 //  Created by wangbin on 14-4-10.
 //  Copyright (c) 2014年 wangbin. All rights reserved.
 //
 
-#include <stdio.h>
-#include "Mode.h"
+#ifndef PointTest_Mode_h
+#define PointTest_Mode_h
 
-void method()
-{
-    printf("aha \n");
-}
+void method();
+
+#endif
